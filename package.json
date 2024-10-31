@@ -4,17 +4,21 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "postinstall": "git submodule update --init --recursive --remote && cd app && npm install",
+        "trello": "cd app && npm start",
         "check-format": "prettier --check .",
         "format": "prettier --write . && eslint . --fix",
         "check-lint": "npx eslint .",
         "check-all": "npm run check-format && npm run check-lint",
-        "cy:open": "cypress open"
+        "cy:open": "cypress open --e2e --browser chrome",
+        "cy:run": "cypress run --e2e --browser chrome"
     },
     "keywords": [],
     "author": "Yevhen Petryk",
     "license": "ISC",
     "devDependencies": {
         "cypress": "^13.15.1",
+        "cypress-mochawesome-reporter": "^3.8.2",
         "eslint": "^9.13.0",
         "eslint-config-prettier": "^9.1.0",
         "eslint-plugin-chai-friendly": "^1.0.1",

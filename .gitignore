@@ -1,4 +1,8 @@
 node_modules/
-cypress/screenshots
-cypress/videos
-cypress/downloads
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+cypress/reports/
+cypress-mochawesome-reporter.log
+
+app/public/data/

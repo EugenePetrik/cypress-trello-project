@@ -1,0 +1,26 @@
+{
+    "name": "cypress-new-project",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "check-format": "prettier --check .",
+        "format": "prettier --write . && eslint . --fix",
+        "check-lint": "npx eslint .",
+        "check-all": "npm run check-format && npm run check-lint",
+        "cy:open": "cypress open"
+    },
+    "keywords": [],
+    "author": "Yevhen Petryk",
+    "license": "ISC",
+    "devDependencies": {
+        "cypress": "^13.15.1",
+        "eslint": "^9.13.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-chai-friendly": "^1.0.1",
+        "eslint-plugin-cypress": "^4.1.0",
+        "eslint-plugin-mocha": "^10.5.0",
+        "eslint-plugin-prettier": "^5.2.1",
+        "prettier": "^3.3.3"
+    }
+}

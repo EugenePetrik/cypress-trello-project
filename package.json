@@ -25,6 +25,7 @@
         "eslint-plugin-cypress": "^4.1.0",
         "eslint-plugin-mocha": "^10.5.0",
         "eslint-plugin-prettier": "^5.2.1",
-        "prettier": "^3.3.3"
+        "prettier": "^3.3.3",
+        "test-data-bot": "^0.8.0"
     }
 }

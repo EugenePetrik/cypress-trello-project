@@ -20,9 +20,9 @@ module.exports = defineConfig({
   },
   e2e: {
     baseUrl: 'http://localhost:3000',
-    // eslint-disable-next-line no-unused-vars
     setupNodeEvents(on, config) {
       require('cypress-mochawesome-reporter/plugin')(on);
+      require('./cypress/plugins/index')(on, config);
     },
   },
 });

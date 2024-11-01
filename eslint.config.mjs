@@ -49,6 +49,7 @@ export default [
       'chai-friendly/no-unused-expressions': 'error',
     },
   },
+  // Plugin Mocha ESlint config
   {
     plugins: {
       mocha: mochaPlugin,

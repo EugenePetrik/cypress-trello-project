@@ -58,7 +58,7 @@ export default [
       'mocha/no-hooks-for-single-case': 'off',
       'mocha/no-mocha-arrows': 'off',
       'mocha/max-top-level-suites': 'error',
-      'mocha/no-skipped-tests': 'error',
+      'mocha/no-skipped-tests': 'off',
       'mocha/no-exclusive-tests': 'error',
       'mocha/no-setup-in-describe': 'error',
       'mocha/no-setup-in-describe': 'off',

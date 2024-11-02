@@ -1,10 +1,28 @@
 # Cypress advanced project
 
-### Requirements
-- NodeJS
-- GIT
+### Technologies
 
-### Install project dependencies
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Node.js](https://nodejs.org/en/)
+- [Cypress](https://docs.cypress.io/app/get-started/why-cypress)
+
+### Installation
+
+- Install [Node.js](https://nodejs.org/en/) LTS version
+
+- Check that Node.js is installed
+
+```bash
+node -v
+```
+
+- Check that package manager npm is installed
+
+```bash
+npm -v
+```
+
+- Install project dependencies
 
 ```bash
 npm install
@@ -13,7 +31,7 @@ npm install
 ### Run application server
 
 ```bash
-npm run start
+npm run trello
 ```
 
 ### Run tests
@@ -26,10 +44,4 @@ npm run cy:open
 
 ```bash
 npm run cy:run
-```
-
-### Generate allure report and open in browser
-
-```bash
-npm run allure:report
 ```

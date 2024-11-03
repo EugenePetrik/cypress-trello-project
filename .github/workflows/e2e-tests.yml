@@ -17,7 +17,7 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           start: npm run trello
-          spec: cypress/e2e/*.cy.ts
+          spec: cypress/e2e/*.cy.js
       - name: Upload report to GitHub Actions Artifacts
         if: always()
         uses: actions/upload-artifact@v4

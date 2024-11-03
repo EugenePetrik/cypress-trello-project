@@ -11,12 +11,12 @@ jobs:
     timeout-minutes: 10
     runs-on: ubuntu-latest
     steps:
-      - name: Get code
+      - name: Checkout
         uses: actions/checkout@v4
       - name: Cypress run
         uses: cypress-io/github-action@v6
         with:
-          start: npm trello
+          start: npm run trello
           spec: cypress/e2e/*.cy.ts
       - name: Upload report to GitHub Actions Artifacts
         if: always()

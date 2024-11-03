@@ -5,4 +5,4 @@ cypress/downloads/
 cypress/reports/
 cypress-mochawesome-reporter.log
 
-app/public/data/
+trello_app/public/data/

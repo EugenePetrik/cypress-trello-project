@@ -4,8 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "postinstall": "git submodule update --init --recursive --remote && cd app && npm install",
-        "trello": "cd app && npm start",
+        "postinstall": "git submodule update --init --recursive --remote && cd trello_app && npm install",
+        "trello": "cd trello_app && npm start",
         "check-format": "prettier --check .",
         "format": "prettier --write . && eslint . --fix",
         "check-lint": "npx eslint .",
